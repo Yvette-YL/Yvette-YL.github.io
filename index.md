@@ -7,11 +7,3 @@ Regression Model
 Machine Learning Model
 <h1>如果在这里直接展示所有post呢？</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
