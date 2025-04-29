@@ -6,6 +6,6 @@ layout: default
 ## 我有两个项目想要展示
 Regression Model 
 
-[智能计价回归模型](./TaxiFareEstimatior/blob/main/README.md "")
+[智能计价回归模型](<https://github.com/Yvette-YL/TaxiFareEstimatior/blob/main/README.md> "")
 
 Machine Learning Model
