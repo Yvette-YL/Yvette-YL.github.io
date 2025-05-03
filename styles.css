@@ -96,10 +96,8 @@ header nav ul li a:hover {
 }
 
 .profile {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+	text-align: center;
+
 }
 
 .profile img {
@@ -107,32 +105,37 @@ header nav ul li a:hover {
     max-width: 200px;
     border-radius: 20%;
     margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto; 
 }
 
 .profile .profile-link {
     max-width: 48px;
-	height: auto;
+	display: block; 
     margin-bottom: 10px;
-	margin-top: 10px;
-	border-radius: 0; 
+	margin-left: auto;
+	margin-right: auto; 
 }
 
 .profile h2 {
     font-size: 1.2rem;
     margin-bottom: 20px;
 	color: #3A3A3A;
+	text-align: left;
 }
 
 .profile h3 {
     font-size: 0.8rem;
     margin-bottom: 10px;
 	color:  #757575;
+	text-align: left;
 }
 
 .profile p {
     font-size: 0.8rem;
     color: #757575;
 	margin-bottom: 20px;
+	text-align: left;
 }
 
 /* right */
@@ -242,10 +245,22 @@ footer p {
 		font-size: 0.9rem;
 	}
 	
+	.profile {
+        text-align: center; 
+    }
+
 	.profile img {
 		width: auto;
         max-width: 100%; 
 	}
+	
+	.profile h2 {
+        text-align: center;  
+    }
+	
+	.profile h3 {
+        text-align: center;  
+    }
 
     .main-container {
         flex-direction: column;
