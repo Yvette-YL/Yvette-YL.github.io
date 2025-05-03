@@ -38,7 +38,7 @@ header .container {
 }
 
 header .logo {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #ECD053;
     letter-spacing: 1px;
@@ -59,7 +59,7 @@ header nav ul li {
 header nav ul li a {
     color: #ECD053;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 header nav ul li a:hover {
@@ -97,38 +97,42 @@ header nav ul li a:hover {
 
 .profile {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .profile img {
     width: 100%;
     max-width: 200px;
-    border-radius: 50%;
+    border-radius: 20%;
     margin-bottom: 20px;
 }
 
-.profile .profile-git {
+.profile .profile-link {
     max-width: 48px;
 	height: auto;
-    margin-bottom: 20px;
-	margin-top: 20px;
+    margin-bottom: 10px;
+	margin-top: 10px;
 	border-radius: 0; 
 }
 
 .profile h2 {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 	color: #3A3A3A;
 }
 
 .profile h3 {
-    font-size: 1rem;
-    margin-bottom: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
 	color:  #757575;
 }
 
 .profile p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #757575;
+	margin-bottom: 20px;
 }
 
 /* right */
@@ -141,7 +145,7 @@ header nav ul li a:hover {
 }
 
 .content h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 	color: #3A3A3A;
 	border-bottom: 2px solid #ECD053;
@@ -160,7 +164,7 @@ header nav ul li a:hover {
 }
 
 .project .tags {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #00AEEE;
     margin-bottom: 10px;
 }
@@ -180,7 +184,7 @@ header nav ul li a:hover {
 
 .project img {
     width: 100%;
-    max-width: 240px;
+    max-width: 280px;
     height: auto;
     border-radius: 8px;
 }
@@ -192,7 +196,8 @@ header nav ul li a:hover {
 
 .read-more {
     display: inline-block;
-    margin-top: 10px;
+    font-size: 1rem;
+	margin-top: 10px;
     text-decoration: none;
     color: #00AEEE;
 
@@ -208,11 +213,11 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: 0.9rem;
 	color: #ECD053;
 }
 
@@ -228,6 +233,11 @@ footer p {
         gap: 10px;
         align-items: flex-start;
     }
+	
+	.profile img {
+		width: auto;
+        max-width: 100%; 
+	}
 
     .main-container {
         flex-direction: column;
@@ -240,20 +250,38 @@ footer p {
     .sidebar {
         width: 100%;
         margin-bottom: 20px;
+		padding-left: 10px;
+        padding-right: 10px;
     }
 
     .content {
         width: 100%;
+		padding-left: 10px;
+        padding-right: 10px;
     }
 
     .project {
         margin-bottom: 30px;
     }
+	
+	.project-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;  
+    }
+
+	.project img {
+        width: 100%;
+        height: auto;
+        max-width: 100%; 
+    }
+	
 }
 
 @media screen and (max-width: 480px) {
     .project img {
         max-width: 100%;
+		height: auto;
     }
 
     .container {
