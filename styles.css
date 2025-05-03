@@ -227,12 +227,20 @@ footer p {
         flex-direction: row;
         align-items: center;
     }
+	
+	header .logo {
+    font-size: 1.1rem;
+	}
 
     header nav ul {
         flex-direction: row;
         gap: 10px;
         align-items: flex-start;
     }
+	
+	header nav ul li a {
+		font-size: 0.9rem;
+	}
 	
 	.profile img {
 		width: auto;
