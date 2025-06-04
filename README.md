@@ -1,5 +1,5 @@
 ## Hi, I'm Yvette
-A Data Analyst, 
+A Data Analyst & Info. Visualization Designer 
 
 Always curious, always learning <br>
 — with a focus on actionable insights and real-world impact.
